@@ -1,0 +1,107 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "FluentResults/1.5.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/FluentResults.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentResults.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FluentResults/1.5.0": {
+      "sha512": "nysfHtpP9EHsFlcwL7ibolqt7TsDwphQw9tJ/2qr+Vnk6RZMMxnKSxsiHL4YGua77bUwMFl/GK7uvlSiu3Y+FA==",
+      "type": "package",
+      "path": "fluentresults/1.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluentresults.1.5.0.nupkg.sha512",
+        "fluentresults.nuspec",
+        "lib/net45/FluentResults.dll",
+        "lib/net48/FluentResults.dll",
+        "lib/netstandard1.1/FluentResults.dll",
+        "lib/netstandard2.0/FluentResults.dll",
+        "lib/netstandard2.1/FluentResults.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.0": [
+      "FluentResults >= 1.5.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\linga\\.nuget\\packages\\": {},
+    "D:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\linga\\source\\repos\\AGL.Stage1Challenge.Common\\AGL.Stage1Challenge.Common.csproj",
+      "projectName": "AGL.Stage1Challenge.Common",
+      "projectPath": "C:\\Users\\linga\\source\\repos\\AGL.Stage1Challenge.Common\\AGL.Stage1Challenge.Common.csproj",
+      "packagesPath": "C:\\Users\\linga\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\linga\\source\\repos\\AGL.Stage1Challenge.Common\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\linga\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "dependencies": {
+          "FluentResults": {
+            "target": "Package",
+            "version": "[1.5.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "AGL.Stage1Challenge.Common/1.0.0": {
+        "dependencies": {
+          "FluentResults": "1.5.0"
+        },
+        "runtime": {
+          "AGL.Stage1Challenge.Common.dll": {}
+        }
+      },
+      "FluentResults/1.5.0": {
+        "runtime": {
+          "lib/netstandard2.1/FluentResults.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AGL.Stage1Challenge.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FluentResults/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nysfHtpP9EHsFlcwL7ibolqt7TsDwphQw9tJ/2qr+Vnk6RZMMxnKSxsiHL4YGua77bUwMFl/GK7uvlSiu3Y+FA==",
+      "path": "fluentresults/1.5.0",
+      "hashPath": "fluentresults.1.5.0.nupkg.sha512"
+    }
+  }
+}

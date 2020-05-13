@@ -1,0 +1,13 @@
+C:\Users\linga\source\repos\AGL.Stage1.Services\bin\Debug\netcoreapp3.0\AGL.Stage1.Model.dll
+C:\Users\linga\source\repos\AGL.Stage1.Services\obj\Debug\netcoreapp3.0\AGL.Stage1.Services.csprojAssemblyReference.cache
+C:\Users\linga\source\repos\AGL.Stage1.Services\obj\Debug\netcoreapp3.0\AGL.Stage1.Services.AssemblyInfoInputs.cache
+C:\Users\linga\source\repos\AGL.Stage1.Services\obj\Debug\netcoreapp3.0\AGL.Stage1.Services.AssemblyInfo.cs
+C:\Users\linga\source\repos\AGL.Stage1.Services\bin\Debug\netcoreapp3.0\AGL.Stage1Challenge.Common.dll
+C:\Users\linga\source\repos\AGL.Stage1.Services\bin\Debug\netcoreapp3.0\AGL.Stage1.Services.deps.json
+C:\Users\linga\source\repos\AGL.Stage1.Services\bin\Debug\netcoreapp3.0\AGL.Stage1.Services.dll
+C:\Users\linga\source\repos\AGL.Stage1.Services\bin\Debug\netcoreapp3.0\AGL.Stage1.Services.pdb
+C:\Users\linga\source\repos\AGL.Stage1.Services\bin\Debug\netcoreapp3.0\AGL.Stage1.Model.pdb
+C:\Users\linga\source\repos\AGL.Stage1.Services\bin\Debug\netcoreapp3.0\AGL.Stage1Challenge.Common.pdb
+C:\Users\linga\source\repos\AGL.Stage1.Services\obj\Debug\netcoreapp3.0\AGL.Stage1.Services.csproj.CopyComplete
+C:\Users\linga\source\repos\AGL.Stage1.Services\obj\Debug\netcoreapp3.0\AGL.Stage1.Services.dll
+C:\Users\linga\source\repos\AGL.Stage1.Services\obj\Debug\netcoreapp3.0\AGL.Stage1.Services.pdb
