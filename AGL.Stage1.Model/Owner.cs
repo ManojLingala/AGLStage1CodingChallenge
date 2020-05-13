@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace AGL.Stage1.Model
 {
+    /// <summary>
+    /// Represents the pet owner model returned by the External People Service 
+    /// </summary>
     public class Owner
     {
         public string Name { get; set; }

@@ -28,7 +28,10 @@ namespace AGL.Stage1.Services
             _serviceUrl= settings?.Value?.ServiceUrl ?? throw new ArgumentNullException(nameof(settings));
             _logger = logger;
         }
-       public async Task<IEnumerable<CatListByOwnerGenderViewModel>> GetOwnerGenderWithCats()
+        /// <summary>
+        /// Returns a grouping of cats grouped by the gender of their owners
+        /// </summary>
+        public async Task<IEnumerable<CatListByOwnerGenderViewModel>> GetOwnerGenderWithCats()
         {
             var peopleResult = await GetPeople();
             // Convert To List
@@ -49,12 +52,18 @@ namespace AGL.Stage1.Services
                             .OrderBy(name => name)
                     });
 
-            //new ValueResponse<IEnumerable<CatListByOwnerGenderViewModel>>(HttpStatusCode.OK, genderWithCats)
+
+            // Log for Trace
+            _logger.LogTrace("Successfully transformed to groups.");
 
             return genderWithCats;
         }
 
-      public  async Task<Result<IEnumerable<Owner>>> GetPeople()
+        /// <summary>
+        /// Gets the pet owner list from the people service
+        /// </summary>
+        /// <returns></returns>
+        public async Task<Result<IEnumerable<Owner>>> GetPeople()
         {
             try
             {
